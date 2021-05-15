@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Personal Portfolio </title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/c6ba82425a.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" crossorigin="anonymous" SameSite=None></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" crossorigin="anonymous" SameSite=None></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" crossorigin="anonymous" SameSite=None></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" crossorigin="anonymous" SameSite=None/>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+
+    <body>
+        
+        <div class="scroll-up-btn">
+            <i class="fa fa-angle-up"></i>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="#">H<span>G</span></a></div>
+                Himanshu
+                <!-- <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul> -->
+                <div class="menu-btn" id="menu-btn"> 
+                    <i class="fas fa-bars"></i>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="max-width">
+                <div class="home-content">
+                    <div class="text-1">Hello, My name is </div>
+                    <div class="text-2">Himanshu Gwalani</div>
+                    <div class="text-3"> And I am a <span class="typing"></span></div>
+                    <a href="https://drive.google.com/file/d/1RWswWyftVsPjxztP-rd9vZGsNIY1hPAX/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="max-width">
+                <h2 class="title"> About Me </h2>
+                <div class="about-content">
+                    <div class="column left">
+                        <img src="images/formal_image.jpg" alt="Himanshu Gwalani"/>
+                    </div>
+                    <div class="column right">
+                        <div class="text">I am Himanshu Gwalani, a <span class="typing-1"></span> </div>
+                            <p>I am a final year undergraduate student at Malaviya National Institute of Technology, Jaipur, with specialization in Computer Science and Engineering. Also, I am an upcomming AMTS at Salesforce. Please checkout more about me below:</p>
+
+                            <div class="social-icons">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/himanshu.gwalani.1"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/himanshu-gwalani"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://github.com/Himanshu-g81"><i class="fab fa-github"></i></a></li>
+                                    <li><a href="mailto:hgwalani81@gmail.com"><i class="far fa-envelope"></i></a></li>
+                                </ul>
+                            </div>
+                                
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="max-width">
+                <h2 class="title"> My Projects </h2>
+                <div class="projects-content">
+                    <div class="card">
+                        <div class="box">
+                            <i class="fa fa-android"></i>
+                            <div class="text">BidRyd</div>
+                            <p>A cab booking android application with an innovation.
+                                The drivers can bid for nearby available rides and the user can select the
+                                appropriate driver for his ride. It was a team project. I designed database scheme
+                                and handled backend of the application.
+                                <div class="project-type">For: MeetAI, A Hyd Based Startup</div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <i class="fab fa-java"></i>
+                            <div class="text">Biblothque</div>
+                            <p>A web-application for abook-store.
+                                Admin can log in, add, delete and manage the number of books,
+                                Customers can log in, signup (email verification), browse, add to cart, buy
+                                now, manage orders, addresses, payment options, and review books.
+                            </p>
+                            <div class="project-type">Personal Project</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <i class="fab fa-react"></i>
+                            <div class="text">Telgro</div>
+                            <p>A crowdsourced learning plaƞorm where you can enhance your skills by
+                                giving test. You will get recommendations of learning resources based on
+                                your test responses. One can also create custom tests and decide which
+                                users can access that. </br> 
+                            </p>
+                            <div class="project-type">For: MeetAI, A Hyd Based Startup</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <i class="fab fa-python"></i>
+                            <div class="text">HimBot</div>
+                            <p>A bot to execute a session-hijacking attack on WhatsApp by exploiting QR-Based login functionality. The execution was secured using face-authentication (without the use of any scientific library).
+                                Technology used: Python, OpenCV, NumPy.</p>
+                            <div class="project-type"> Course Project </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section class="skills" id="skills">
+            <div class="max-width">
+                <h2 class="title">My Skills</h2>
+                <div class="skills-content">
+                    <div class="column left">
+                        <div class="bars">
+                            <div class="info">
+                                <span>C</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="line c"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>JAVA</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="line java"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Python</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="line python"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Android</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="line android"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Javascript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line javascript"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Spring Boot</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="line spring"></div>
+                        </div>
+                    </div> 
+                    <div class="column right">
+                        <div class="bars">
+                            <div class="info">
+                                <span>Firebase</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="line firebase"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>MySQL</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line mysql"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Node JS</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line nodejs"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>React JS</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="line reactjs"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Git</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line git"></div>
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>Apex</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="line apex"></div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- experience section -->
+        <!-- <section class="project" id="project">
+            <div class="max-width">
+                <h2 class="title #s3">My Education</h2>
+                <div class="carousel owl-carousel">
+                    <div class="card">
+                        <div class="box">
+                            <img src="images/salesforce_logo.png" alt="Salesforce" />
+                            <div class="company_name">SDE Intern</div>
+                            <i class="duration">May'20 - July'20</i>
+                            <div class="card-text hidden-content">
+                                Developed and deployed slack-bot to provide suggestions with relevant answers and similar questions based on query asked on team-support channel. It also responds to in-person queries to bot.
+                            </div>
+                            <div class="show-more">
+                                <a href="#">Show more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section> -->
+
+        
+        <section class="education" id="education">
+            <div class="container education">
+                <div class="heading-section text-center ftco-animate">
+                    <h2 class="mb-4">My Education</h2>
+                </div>
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                      <ul class="list">
+                        <li>
+                        <span></span>
+                          <div class="media">
+                            <div class="d-flex">
+                              <p>July 2017 to Present</p>
+                            </div>
+                            <div class="media-body">
+                              <h4>Malviya National Institute of Technology, Jaipur</h4>
+                              <p> Graduation <br />Cgpa: 9.45</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span></span>
+                          <div class="media">
+                            <div class="d-flex">
+                              <p>July 2015 to April 2017</p>
+                            </div>
+                            <div class="media-body">
+                              <h4>B. R. Birla Public School, Jodhpur</h4>
+                              <p>High School <br />Score: 94.4%</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <span></span>
+                          <div class="media">
+                            <div class="d-flex">
+                              <p>July 2010 to April 2015</p>
+                            </div>
+                            <div class="media-body">
+                              <h4>Central Academy</h4>
+                              <p>School <br />Cgpa: 10</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                </div>
+        </section>
+            
+
+        <section class="contact" id="contact">
+            <div class="max-width">
+                <h2 class="title">Contact me</h2>
+                <div class="contact-content">
+                    <div class="column left">
+                        <div class="text">Get in Touch</div>
+                        <div class="icons">
+
+                            <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="sub-title">Himanshu Gwalani</div>
+
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <i class="fas fa-envelope"></i>
+                                <div class="info">
+                                    <div class="head">Email</div>
+                                    <div class="sub-title">hgwalani81@gmail.com</div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <i class="fas fa-phone"></i>
+                                <div class="info">
+                                    <div class="head">Mobile</div>
+                                    <div class="sub-title">8209487925</div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column right">
+                        <div class="text">Message me</div>
+                        <form>
+                            <div class="fields">
+                                <div class="field name">
+                                    <input type="text" id="name" placeholder="Name" required/>
+                                </div>
+                                <div class="field email">
+                                    <input type="text" id="email" placeholder="Email" required/>
+                                </div>
+                            </div>
+                            <div class="field subject">
+                                <input type="text" id="subject" placeholder="Subject" required/>
+                            </div>
+                            <div class="field textarea">
+                                <textarea cols="30" rows="10" id="message" placeholder="Write your message" required ></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </dv>
+        </section>
+
+
+        <!-- footer section -->
+        <footer class="footer">
+            <span>Handcrafted By <a href="https://www.linkedin.com/in/himanshu-gwalani">Himanshu Gwalani</a> | <span class="far fa-copyright"> </span> 2020</span>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+
+    
+</html>
