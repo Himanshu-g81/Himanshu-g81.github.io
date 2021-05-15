@@ -682,6 +682,7 @@ section {
     -webkit-filter: blur(2px);    /* Blur */
     -moz-filter: blur(2px);
     filter: blur(2px);
+    color: crimson
 }
 
 /* show more option styling */
@@ -1004,3 +1005,45 @@ section {
 #education .hide{
   display: none;
 }
+
+#s6{
+    padding-bottom: 100px;
+  }
+  
+  
+  
+  #s6 .contact{
+    display: flex;
+    align-items: center;
+  }
+  
+  #s6 .col-md-4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  #s6 img{
+    width: 35px;
+    height: 40px;
+    /* margin-right: 15px; */
+  }
+  
+  #s6 h2{
+    text-align: center;+
+  }
+  
+  #s6 i {
+    margin-right: 15px;
+    font-size: 40px;
+  }
+  
+  #s6 a:hover{
+    cursor: pointer;
+    color: blue;
+  }
+  
+  @media(max-width:720px){
+    #s6 .container2{
+      padding-left: 20%;
+    }
+  }
