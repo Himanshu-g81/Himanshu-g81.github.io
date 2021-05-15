@@ -3,10 +3,10 @@ $(document).ready(function() {
     $(window).scroll(function() {
 
         if(this.scrollY > 20) {
-            $('.navbar').addClass('sticky');
+            $('.navbar-custom').addClass('sticky');
         }
         else {
-            $('.navbar').removeClass('sticky');
+            $('.navbar-custom').removeClass('sticky');
         }
 
         if(this.scrollY > 500) {
@@ -44,7 +44,7 @@ $(document).ready(function() {
 
     $('.menu-btn').click(function() {
         console.log("clicked");
-        $('.navbar .menu').toggleClass("active")
+        $('.navbar-custom .menu').toggleClass("active")
         $('.menu-btn i').toggleClass("active")
     })
 

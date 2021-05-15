@@ -15,22 +15,23 @@ html {
 }
 
 /* navbar-styling */
-.navbar {
+.navbar-custom {
     background: black;
     position: fixed;
     width: 100%;
+    height: 65px;
     z-index: 999;
     padding: 15px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 
-.navbar.sticky {
+.navbar-custom.sticky {
     padding: 15px 0;
     background: crimson;
 }
 
-.navbar .logo a{
+.navbar-custom .logo a{
     color: #fff;
     font-size: 35px;
     font-weight: 600px;
@@ -38,11 +39,15 @@ html {
     text-align: left;
 }
 
-.navbar .logo a span{
+.navbar-custom.sticky .logo a span {
+    color: white;
+}
+
+.navbar-custom .logo a span{
     color: crimson;
 }
 
-.navbar .max-width{
+.navbar-custom .max-width{
     display: flex;
     align-items: left;
     justify-content: space-between;
@@ -54,7 +59,7 @@ html {
     margin: auto;
 }
 
-.navbar .menu li {
+.navbar-custom .menu li {
     list-style: none;
     display: inline-block;
     font-size: 18px;
@@ -63,15 +68,15 @@ html {
     transition: color 0.3s ease;
 }
 
-.navbar .menu li a:hover {
+.navbar-custom .menu li a:hover {
     color: crimson;
 }
 
-.navbar.sticky .menu li a:hover {
+.navbar-custom.sticky .menu li a:hover {
     color: black
 }
 
-.navbar .menu li a{
+.navbar-custom .menu li a{
     color: #fff;
 }
 
@@ -727,7 +732,7 @@ section {
         content: "\f00d";
     }
     
-    .navbar .menu {
+    .navbar-custom .menu {
         position: fixed;
         height: 100vh;
         width: 100%;
@@ -739,23 +744,23 @@ section {
         transition: all 0.3s ease;
     }
 
-    .navbar .menu.active {
+    .navbar-custom .menu.active {
         left: 0;
     }
 
-    .navbar .menu li a:hover {
+    .navbar-custom .menu li a:hover {
         color: crimson;
     }
     
-    .navbar.sticky .menu li a:hover {
+    .navbar-custom.sticky .menu li a:hover {
         color: crimson;
     }
 
-    .navbar .menu li {
+    .navbar-custom .menu li {
         display: block;
     }
     
-    .navbar .menu li a {
+    .navbar-custom .menu li a {
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
