@@ -36,7 +36,7 @@ html {
     font-size: 35px;
     font-weight: 600px;
     left: -100%;
-    text-align: left;
+    text-align: center;
 }
 
 .navbar-custom.sticky .logo a span {
