@@ -48,6 +48,12 @@ $(document).ready(function() {
         $('.menu-btn i').toggleClass("active")
     })
 
+    $('.navbar-custom .menu li').click(function() {
+        console.log("navbar")
+        $('.navbar-custom .menu').toggleClass("active")
+        $('.menu-btn i').toggleClass("active")
+    })
+
     // owl carousel script
 
     $('.carousel').owlCarousel({
@@ -77,13 +83,4 @@ $(document).ready(function() {
 
     
 
-    const form = document.querySelector('form')
-    form.addEventListener('submit', event => {
-
-        event.preventDefault()
-        // submit event detected
-        const {name, email, subject, message} = event.target.elements;
-        
-        
-    })
 })
